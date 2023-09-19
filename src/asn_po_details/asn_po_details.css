@@ -1,0 +1,39 @@
+.po-details-wrapper {
+    background: #fff;
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.po-heading-row {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.po-part-desc {
+    font-size: 13px;
+    color: #525252;
+}
+.po-part-num {
+    font-size: 13px;
+}
+.part-details-row {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    margin: 4px 0px;
+    border-radius: 4px;
+}
+.part-details-col {
+    margin-right: 25px;
+}
+.part-details-subrow {
+    display: flex;
+    justify-content: space-between;
+}
+.part-details-subrow-h {
+    font-size: 13px;
+    color: #525252;
+    margin-right: 4px;
+}
+.part-details-subrow-v {
+    font-size: 13px;
+}

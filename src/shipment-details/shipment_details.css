@@ -1,0 +1,43 @@
+.shipment-details-container {
+    background-color: #dadada;
+    padding: 12px;
+}
+.shipment-details-wrapper{
+    background: #fff;
+    border-radius: 4px;
+    padding: 8px;
+}
+.shipment-heading {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.wt-vol-row {
+    display: flex;
+    display: flex;
+    border-bottom: 1px dotted #dadada;
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+}
+.wt-vol-col {
+    margin-right: 10px;
+}
+.wt-vol-h {
+    font-size: 13px;
+    color: #525252;
+}
+.wt-vol-v {
+    font-size: 16px;
+}
+.dates-row {
+    display: flex;
+}
+.dates-col {
+    margin-right: 12px;
+}
+.dates-h {
+    color: #525252;
+    font-size: 13px;
+}
+.dates-v {
+    font-size: 12px;
+}

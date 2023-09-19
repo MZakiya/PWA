@@ -1,0 +1,145 @@
+*{
+    font-family: "Roboto";
+}
+html, body {
+    margin: 0;
+}
+.login-page {
+    font-family: "Roboto";
+    width: 100%;
+    position: relative;
+    /* height: 100%; */
+    height: 100vh;
+}
+.bg-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    left: 0;
+    z-index: 1;
+}
+.bg-div-row1,
+.bg-div-row2 {
+    display: flex;
+    flex: 1;
+}
+
+.bg-div1,
+.bg-div2,
+.bg-div3,
+.bg-div4 {
+    flex: 1;
+}
+
+.bg-div1 {
+    border-radius: 480px;
+    opacity: 0.4;
+    background: #F9F3BC;
+    filter: blur(69.5px);
+}
+
+.bg-div2 {
+    border-radius: 480px;
+    opacity: 0.4;
+    background: #BCF9DF;
+    filter: blur(69.5px);
+}
+
+.bg-div3 {
+    border-radius: 480px;
+    opacity: 0.4;
+    background: #FAA;
+    filter: blur(69.5px);
+}
+
+.bg-div4 {
+    border-radius: 480px;
+    opacity: 0.4;
+    background: #FFFF;
+    filter: blur(69.5px);
+}
+.login-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    /* margin-top: 10%; */
+}
+.signin-text1 {
+    margin-top: 40px;
+}
+.signin-text2 {
+    margin-top: 16px;
+}
+.form-container {
+    margin-top: 50px;
+}
+.signin-text1 {
+    color: #000;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.374px;
+}
+.email-label {
+    text-align: left;
+}
+.signin-btn {
+    border-radius: 6px;
+    background: #007BFF;
+    border: 1px solid #007BFF;
+    color: #fff;
+    width: 330px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 48px;
+}
+.email-container {
+    width: 330px;
+    margin: auto;
+    text-align: left;
+}
+
+.password-container {
+    width: 330px;
+    margin: auto;
+    text-align: left;
+}
+.password-field {
+    margin-top: 24px;
+}
+.user-email-input, .user-password-input {
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+}
+.label-container {
+    margin-bottom: 4px;
+}
+.labelText {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.signin-btn {
+    margin-top: 60px;
+}

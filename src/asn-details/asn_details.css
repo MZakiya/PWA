@@ -1,0 +1,26 @@
+.asn-header-container {
+    display: flex;
+    width: 100%;
+    padding-top: 8px;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dadada; 
+}
+.back-icon {
+    margin-left: 8px;
+    display: flex;
+}
+.asn-number {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 18px;
+}
+.supplier-name {
+    margin-left: 8px;
+}
+.asn-details-page .MuiBox-root {
+    padding: 0px;
+}
+.shipment-panel {
+    background-color: #DADADA;
+}

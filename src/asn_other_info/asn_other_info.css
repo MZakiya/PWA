@@ -1,0 +1,120 @@
+.asn-other-info-container {
+    background: #f0f0f0;
+    padding: 8px;
+}
+.asn-other-info-wrapper {}
+.asn-orgs-info {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+}
+.asn-org {
+    min-width: 320px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.asn-org-name-row {
+    display: flex;
+    align-items: center;
+}
+.asn-org-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 6px;
+}
+.asn-org-chip {
+    color: #007BFF;
+    font-size: 11px;
+    background-color: #DBF1FF;
+    border-radius: 2px;
+    padding: 2px 8px;
+}
+.asn-org-address {
+    font-size: 13px;
+}
+.asn-gst-row {
+    display: flex;
+}
+.asn-gst-text {
+    font-size: 13px;
+    color: #878787;
+    margin-right: 8px;
+}
+.asn-gst-val {
+    font-size: 13px;
+}
+.asn-ship-from-container {}
+.asn-ship-from-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.asn-ship-from-val {
+    font-size: 13px;
+}
+.asn-user-container {}
+.asn-user {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.asn-user-contact {
+    font-size: 13px;
+}
+
+
+ .asn-orgs-info::-webkit-scrollbar {
+     width: 12px;
+ }
+ 
+ .asn-orgs-info::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 10px;
+     display: none;
+ }
+ 
+ .asn-orgs-info::-webkit-scrollbar-thumb {
+     display: none;
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+ }
+ .asn-freight-forward-info {
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+ }
+ .asn-freight-forward-title {
+     font-weight: 500;
+     font-size: 12px;
+ }
+ .freight-table {
+
+ }
+ .freight-h{
+    font-size: 13px;
+    color: #525252;
+ }
+ .freight-v{
+    font-size: 12px;
+}
+
+.asn-files-container {
+    background: #fff;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.asn-file-info-row {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.asn-file-col {
+    font-size: 13px;
+    margin-right: 8px;
+}
+.asn-file-creator {
+    color: #525252;
+}
